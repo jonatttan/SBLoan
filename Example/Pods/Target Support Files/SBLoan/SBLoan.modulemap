@@ -1,0 +1,6 @@
+framework module SBLoan {
+  umbrella header "SBLoan-umbrella.h"
+
+  export *
+  module * { export * }
+}

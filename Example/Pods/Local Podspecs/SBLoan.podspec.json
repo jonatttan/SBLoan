@@ -1,0 +1,22 @@
+{
+  "name": "SBLoan",
+  "version": "0.1.0",
+  "summary": "A short description of SBLoan.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jonatttan/SBLoan",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jonatttan": "jonattan.sousa@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jonatttan/SBLoan.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SBLoan/Classes/**/*"
+}
