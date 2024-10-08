@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		095F64462CB0062D0061C72D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 095F64442CB0062D0061C72D /* .gitkeep */; };
-		095F64472CB0062D0061C72D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 095F64442CB0062D0061C72D /* .gitkeep */; };
-		095F64482CB0062D0061C72D /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095F64452CB0062D0061C72D /* SBLoanView.swift */; };
-		095F64492CB0062D0061C72D /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095F64452CB0062D0061C72D /* SBLoanView.swift */; };
+		092786F42CB543FF000F3E8D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 092786F02CB543FF000F3E8D /* .gitkeep */; };
+		092786F52CB543FF000F3E8D /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092786F12CB543FF000F3E8D /* SBLoanView.swift */; };
+		092786F62CB543FF000F3E8D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 092786F32CB543FF000F3E8D /* .gitkeep */; };
 		0D46664F22E22C9EC023B99A2F3AC5E7 /* Pods-SBLoan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC2D0A7AAABC22DB108837AECFAD8D2 /* Pods-SBLoan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		355118C88EE09E69AAF6E343DF123E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4AA66A4462F734A7C4D0072BFCA6795A /* Pods-SBLoan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D49B63C316229EFAAD6203319E95AA89 /* Pods-SBLoan_Tests-dummy.m */; };
@@ -40,8 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		095F64442CB0062D0061C72D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		095F64452CB0062D0061C72D /* SBLoanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBLoanView.swift; sourceTree = "<group>"; };
+		092786F02CB543FF000F3E8D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		092786F12CB543FF000F3E8D /* SBLoanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBLoanView.swift; sourceTree = "<group>"; };
+		092786F32CB543FF000F3E8D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		0966A0D895058D874E4D24A16624717D /* SBLoan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBLoan-prefix.pch"; sourceTree = "<group>"; };
 		0AF4FB207EE4CC30ED12026C1589E286 /* Pods-SBLoan_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SBLoan_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		11E85E67A7745C81EAF680F81464510B /* Pods-SBLoan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SBLoan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -104,14 +104,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		095F64432CB0062D0061C72D /* Classes */ = {
+		092786EF2CB543FF000F3E8D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				095F64442CB0062D0061C72D /* .gitkeep */,
-				095F64452CB0062D0061C72D /* SBLoanView.swift */,
+				092786F02CB543FF000F3E8D /* .gitkeep */,
+				092786F12CB543FF000F3E8D /* SBLoanView.swift */,
 			);
-			name = Classes;
-			path = SBLoan/Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		092786F22CB543FF000F3E8D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				092786F32CB543FF000F3E8D /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -125,7 +132,8 @@
 		78F95950BD5C48F492E07AE64A4D9C41 /* SBLoan */ = {
 			isa = PBXGroup;
 			children = (
-				095F64432CB0062D0061C72D /* Classes */,
+				092786F22CB543FF000F3E8D /* Assets */,
+				092786EF2CB543FF000F3E8D /* Classes */,
 				79FE4EE5BEC26B17AD304E8BA1DB62B1 /* Pod */,
 				B175872B164FC96D032B32A45E1C81C7 /* Support Files */,
 			);
@@ -365,7 +373,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095F64462CB0062D0061C72D /* .gitkeep in Resources */,
+				092786F42CB543FF000F3E8D /* .gitkeep in Resources */,
+				092786F62CB543FF000F3E8D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +382,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095F64472CB0062D0061C72D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +400,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				643599053E2FB82BBF562D6B230A3462 /* SBLoan-dummy.m in Sources */,
-				095F64492CB0062D0061C72D /* SBLoanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				600D7C231C301BCC005E154F2C58CE2B /* Pods-SBLoan_Example-dummy.m in Sources */,
-				095F64482CB0062D0061C72D /* SBLoanView.swift in Sources */,
+				092786F52CB543FF000F3E8D /* SBLoanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
