@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBLoan'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Library used on the SwiftBank for Loan feature'
   s.description      = 'Library that allow the user to access your loan wallet'
   s.swift_versions   = '5.0'
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'SBLoan/Classes/**/*'
   
