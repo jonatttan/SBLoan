@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		092786F42CB543FF000F3E8D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 092786F02CB543FF000F3E8D /* .gitkeep */; };
 		092786F52CB543FF000F3E8D /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092786F12CB543FF000F3E8D /* SBLoanView.swift */; };
-		092786F62CB543FF000F3E8D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 092786F32CB543FF000F3E8D /* .gitkeep */; };
 		0D46664F22E22C9EC023B99A2F3AC5E7 /* Pods-SBLoan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC2D0A7AAABC22DB108837AECFAD8D2 /* Pods-SBLoan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		355118C88EE09E69AAF6E343DF123E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4AA66A4462F734A7C4D0072BFCA6795A /* Pods-SBLoan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D49B63C316229EFAAD6203319E95AA89 /* Pods-SBLoan_Tests-dummy.m */; };
@@ -374,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				092786F42CB543FF000F3E8D /* .gitkeep in Resources */,
-				092786F62CB543FF000F3E8D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
