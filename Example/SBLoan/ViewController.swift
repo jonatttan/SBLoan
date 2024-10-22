@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import SwiftUI
+import Pods_SBLoan_Example
 
 class ViewController: UIViewController {
+    let hostingController = UIHostingController(rootView: SBLoanView())
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.addChild(hostingController)
+        hostingController.view.frame = self.view.bounds
+        self.view.addSubview(hostingController.view)
+        hostingController.didMove(toParent: self)
     }
 
     override func didReceiveMemoryWarning() {
