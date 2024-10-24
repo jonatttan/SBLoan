@@ -85,6 +85,7 @@ public struct SBLoanView: View {
                     Spacer()
                 }
             }
+            .padding()
     }
     
     var headerCardView: some View {
