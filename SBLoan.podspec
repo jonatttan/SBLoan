@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBLoan'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'Library used on the SwiftBank for Loan feature'
   s.description      = 'Library that allow the user to access your loan wallet'
   s.swift_versions   = '5.0'
